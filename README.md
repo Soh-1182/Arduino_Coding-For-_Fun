@@ -1,4 +1,4 @@
-# lab-samples
+
 In repository, lab-samples, I will be sharing code, and resources for making amazing projects. You can you these for science fairs too. We will be working with the following microcontrollers:
 
 1. Arduino Uno R3
