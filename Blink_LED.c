@@ -5,7 +5,7 @@
 3. A microcontroller (Arduino).
 4. Breadboard
 5. 2 male to male juming wiries 
-
+Remeber to paste this straight into arduino ide, connect the arduino and Hit upload for the prject to be on your arduino.
 *\
 
 int led = 13; 
