@@ -4,8 +4,8 @@
  *  ======================================================================
  *  Copyright (C) 2026 Sohan Krishna Golkonda. All Rights Reserved.
  *  
- *  Project Name: RTC_Setup
- *  Creation Date: 03/25/26
+ *  Project Name: Time_Module_P1
+ *  Creation Date: 02/13/26
  *  Author: Sohan Krishna Golkonda
  *  
  *  LEGAL TERMS AND CONDITIONS:
