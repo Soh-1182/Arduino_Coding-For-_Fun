@@ -1,3 +1,26 @@
+
+/* 
+ *  ======================================================================
+ *  COPYRIGHT NOTICE
+ *  ======================================================================
+ *  Copyright (C) 2026 Sohan Krishna Golkonda. All Rights Reserved.
+ *  
+ *  Project Name: Time_Module_P2
+ *  Creation Date: 2/17/26
+ *  Author: Sohan Krishna Golkonda
+ *  
+ *  LEGAL TERMS AND CONDITIONS:
+ *  This software and its source code are the exclusive intellectual 
+ *  property of the author. 
+ *  
+ *  1. PLAGIARISM IS STRICTLY PROHIBITED. You may not copy, re-upload, 
+ *     or distribute this code under your own name or claim authorship.
+ *  2. You may use and modify this code solely for your own personal, 
+ *     private, and non-commercial educational use.
+ *  3. Any public exhibition or sharing of this project must explicitly 
+ *     credit Sohan Krishna Golkonda as the original author.
+ *  ======================================================================
+ */
 /*Including Library*/
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
