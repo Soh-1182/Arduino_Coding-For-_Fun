@@ -1,5 +1,5 @@
-
-/* 
+  
+/*  
  *  ======================================================================
  *  COPYRIGHT NOTICE
  *  ======================================================================
@@ -20,6 +20,9 @@
  *  3. Any public exhibition or sharing of this project must explicitly 
  *     credit Sohan Krishna Golkonda as the original author.
  *  ======================================================================
+Neccesities, 
+1. I2C LCD (1)
+ 2. DS1307 RTC (1)      
  */
 /*Including Library*/
 #include <Wire.h>
