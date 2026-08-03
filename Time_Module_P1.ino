@@ -32,15 +32,20 @@ void setup () {
 
   if (!rtc.begin()) {
     Serial.println("Couldn't find RTC");
-    while (1);
+    while(1);
   }
 
   if (!rtc.isrunning()) {
     Serial.println("RTC is NOT running, setting the time!");
 
-    // Set the time: RTC_DS1307(hour, minute, second, day, month, year)
-    rtc.adjust(DateTime(2026, 1, 19, 12, 17, 40)); // Example: 19 Jan 2026, 11:30:00
+    // Set the time: RTC_DS1307(YR, MON, DAY, HOUR, MIN, SEC)
+    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
   }
+  else {
+    Serial.println("RTC is already RUNNING. Could be either right or wrong time. Please pull out battery and replace it"); 
+    while(1);
+  }
+
 }
 
 void loop () {
